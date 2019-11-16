@@ -6,10 +6,17 @@ https://docs.google.com/presentation/d/1ArOMnbw-UD5LM-jbf89lVP30UElBkXgdhee4pZ8C
 ### Concept & Objectives
 
 ### APIs Used
+* NYT Article Search API
+* Reddit API
 
 ### Languages & Libraries Used
 
 <b>Languages:</b> 
+* HTML
+* CSS
+* JavaScript
 
 
 <b>Libraries:</b>
+* Node.js
+* D3.js
