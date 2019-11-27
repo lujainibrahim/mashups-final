@@ -1,6 +1,6 @@
 # Climate Change Discourse — Mashups Final Project by Lujain Ibrahim & Brandon Chin Loy
 ## Overview
-### Presentation link: 
+### Initial Proposal Presentation:  
 https://docs.google.com/presentation/d/1ArOMnbw-UD5LM-jbf89lVP30UElBkXgdhee4pZ8CAwA/edit?usp=sharing
 ### Concept & Objectives
 
