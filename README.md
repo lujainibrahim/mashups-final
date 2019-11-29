@@ -55,10 +55,10 @@ After extensive research, we believed that with these 6 topics, we would have co
 * Extinction 
 ## Drafts (sketches, design decisions)
 ### Initial Sketches 
-![](https://imgur.com/zv9noss)
+![]()
 ### Final Sketches
 ### Color Scheme Choice
-![](https://www.color-hex.com/palettes/7174.png | width=100)
+![](https://www.color-hex.com/palettes/7174.png){:height="50%" width="50%"}
 
 We wanted the experience of using our site to feel educational, authentic, and serving the sole purpose of improving the conversation around climate change especially in relation to money and the economy. And so, we did not want to pick a flashy brand for the website or give it a corporate look. This led to us using the earth-y colors as our color scheme (along with black and white). Here are the hex codes used: 
 * #4f4cb0                                             
