@@ -44,29 +44,39 @@ To reiterate, our main motivators for our final project evolved into the followi
 As a result, our final project shifted to be a more exploratory experience with a stronger contrast in the source of information from the getgo. Users will first be presented with general climate change statistics, visualized to be more attractive and attention-grabbing to encourage users to further explore the webpage. Following that, different climate chaneg topics and their relations to each other will be presented in a collapsible tree type visual, allowing users to dig deeper into these various topic one Financial Times and one NYT article at a time.
 
 ### Target Audience
-### What should the user leave with?
+Our target audience are climate change skeptics. These can be students, parents, policy-makers, as well as those immediately affected by the change in climate and are lied to by politicians and policy-makers. Even though our target audience is not restricted by age, gender, race, or degree of education, there are certain demographics that are more likely to be climate change skeptics than others. We hoped that through a highly visual approach we would appeal to a larger group of the skeptics, but we also wanted the experience to be educational and explorative and not just controversial and flashy, and this is where the Financial Times and NYT articles come in. 
+
 ### Topics Selected
-The topics selected to represent climate change discourse were the following: 
+After extensive research, we believed that with these 6 topics, we would have covered the main areas discussed today relating to climate change. The topics selected to represent climate change discourse are the following: 
 * Energy 
 * Oceans
 * Global Warming
 * Pollution 
 * Food Crisis
 * Extinction 
-After extensive research, we beleived that with these 6 topics, we would have covered the main areas discussed today relating to climate change.
 ## Drafts (sketches, design decisions)
 ### Initial Sketches 
 ### Final Sketches
 ### Color Scheme Choice
+We wanted the experience of using our site to feel educational, authentic, and serving the sole purpose of improving the conversation around climate change especially in relation to money and the economy. And so, we did not want to pick a flashy brand for the website or give it a corporate look. This led to us using the earth-y colors as our color scheme (along with black and white). Here are the hex codes used: 
+* #4f4cb0                                             
+* #d8c596
+* #6b93d6
+* #e9eff9
+* #9fc164 
 
 ### Font Choice
+For our font choice, one of our constraints was using an open source font provider like Google Fonts. Even though we wanted the authenticity of our website to show, we also wanted users to associate it with scientific rigor and evidence. And so, we decided to use IBM Plex Sans and Roboto. IBM Plex Sans is "an open source typeface superfamily conceptually designed and developed by Mike Abbink at IBM in collaboration with Bold Monday to reflect the brand spirit, beliefs and design principles of IBM and to be used for all brand experiences across the company internationally", while Roboto is "a neo-grotesque sans-serif typeface family developed by Google as the system font for its mobile operating system Android". Ironically, the technology world is a huge part of the problem, but most individuals will experience unconscious association of these fonts with the techinical and scientific world which will achieve our goal of attaching scientific legitmacy to our web page.
+
 ### Website Flow 
-1. Have a database of popular climate change topics
-2. Use a random seed to pick n topics
-3. Use D3.js to visualize the the topics (we need to pick a D3 visual form) 
-4. Users pick one
-5. It searches NYT and Financial Times for articles under this topic
-6. Presents the articles and their summaries
+1. The user is presented with general climate change statistics (visualized via D3.js) to grab their attention
+2. A database of popular climate change topics is kept 
+3. A random seed is used to pick n topics
+4. D3.js visualizes the the topics in a collapsible tree
+5. Users pick a topic
+6. NYT and Financial Times are searched for articles under this topic
+7. The articles and their summaries are presented to the user
+
 
 ### D3.js Visualizations
 1. D3 Liquid Fill Gauge (http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6)
