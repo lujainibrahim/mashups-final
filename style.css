@@ -1,0 +1,176 @@
+/* Main Style */
+
+body {background-color: #e9eff9;}
+
+a {
+	color: #4f4cb0;
+	text-decoration: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+	-o-transition-duration: 0.2s;
+	-ms-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+	color:  #6b93d6;
+}
+
+#sketch-holder {
+	text-align: center;
+}
+
+.title {
+	color: black;
+	text-align: center;
+	margin: 20px auto 15px;
+	width: 100%;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.text {
+	text-align: justify;
+	margin: 0px auto;
+	max-width: 600px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.textbold {
+	font-weight: 500;
+	font-size: 20px;
+	display: inline;
+}
+
+/* Buttons */
+
+.buttons {
+	width: 100%;
+	text-align: center;
+}
+
+.button-style {
+	background-color: #266EF6;
+	border: none;
+	color: #333333;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 14px;
+	width: 15%;
+	padding: 10px 15px;
+	margin: 5px 15px 20px;
+	-o-transition-duration: 0.2s;
+	-ms-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.button2-style {
+	background-color: #266EF6;
+	border: none;
+	color: #333333;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 14px;
+  width: 10%;
+  padding: 2px 2px;
+  margin: 5px 5px 5px;
+	-o-transition-duration: 0.2s;
+	-ms-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.button-style:hover {
+	background-color: #FF8B00;
+}
+
+.button2-style:hover {
+	background-color: #FF8B00;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+    color: #178BCA;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+    color: #0f0752;
+}
+h3 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 14px;
+  color: #178BCA;
+
+}
+.awesome {
+     -webkit-animation:colorchange 20s infinite alternate;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+    color: #0f0752;
+padding-left: 150px;
+padding-right: 150px;
+}
+
+@-webkit-keyframes colorchange {
+     0% {
+
+       color: #178BCA;
+     }
+
+     10% {
+
+       color: #6b93d6   ;
+     }
+
+     20% {
+
+       color: #e9eff9;
+     }
+
+     30% {
+
+       color: #9fc164;
+     }
+
+     40% {
+
+       color: #d8c596;
+     }
+
+     50% {
+
+       color: #178BCA;
+     }
+
+     60% {
+
+       color: #e9eff9;
+     }
+
+     70% {
+
+       color: #d8c596;
+     }
+     80% {
+
+       color: #178BCA;
+     }
+
+     90% {
+
+       color: #d8c596;
+     }
+
+     100% {
+
+       color: #e9eff9;
+     }
+   }
