@@ -55,7 +55,7 @@ After extensive research, we believed that with these 6 topics, we would have co
 * Extinction 
 ## Drafts (sketches, design decisions)
 ### Initial Sketches 
-![]()
+![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/climate.png)
 ### Final Sketches
 ### Color Scheme Choice
 ![](https://www.color-hex.com/palettes/7174.png)
