@@ -223,3 +223,22 @@ padding-right: 150px;
      stroke: #ccc;
      stroke-width: 2.0px;
    }
+   #parent_div_1{
+    width:400px;
+    height:400px;
+    display: inline-block;
+    border:1px solid blue;
+
+}
+#parent_div_2{
+ width:400px;
+ height:400px;
+ display: inline-block;
+ border:1px solid blue;
+
+}
+#wrapper {
+    width: 70%;
+        text-align: center;
+    margin: 0 auto;
+}
