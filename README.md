@@ -76,9 +76,10 @@ After extensive research, we believed that with these 6 topics, we would have co
 * Wildfires
 ## Design Decisions
 ### Initial Sketches 
-![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/inialsketch.png)
+![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/initialsketch.png)
 ### Final Sketches
-![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/finalsketch.jpg)
+<div style="text-align:center"><img src="https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/finalsketch.JPG" width="600"></div>
+
 ### Color Scheme Choice
 <div style="text-align:center"><img src="https://www.color-hex.com/palettes/7174.png" width="500"></div>
 
