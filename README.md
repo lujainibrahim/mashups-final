@@ -78,7 +78,7 @@ After extensive research, we believed that with these 6 topics, we would have co
 ### Initial Sketches 
 ![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/initialsketch.png)
 ### Final Sketches
-<div style="text-align:center"><img src="https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/final.png" width="600"></div>
+<div style="text-align:center"><img src="https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/finalsketch.png" width="400"></div>
 
 ### Color Scheme Choice
 <div style="text-align:center"><img src="https://www.color-hex.com/palettes/7174.png" width="500"></div>
