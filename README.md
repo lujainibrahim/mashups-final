@@ -46,13 +46,34 @@ As a result, our final project shifted to be a more exploratory experience with 
 Our target audience are climate change skeptics. These can be students, parents, policy-makers, as well as those immediately affected by the change in climate and are lied to by politicians and policy-makers. Even though our target audience is not restricted by age, gender, race, or degree of education, there are certain demographics that are more likely to be climate change skeptics than others. We hoped that through a highly visual approach we would appeal to a larger group of the skeptics, but we also wanted the experience to be educational and explorative and not just controversial and flashy, and this is where the Financial Times and NYT articles come in. 
 
 ### Topics Selected
-After extensive research, we believed that with these 6 topics, we would have covered the main areas discussed today relating to climate change. The topics selected to represent climate change discourse are the following: 
-* Energy 
-* Oceans
+After extensive research, we believed that with these 6 topics, we would have covered the main areas discussed today relating to climate change. The topics selected to represent climate change discourse are the following:
 * Global Warming
+* Energy 
+* Fossil Fuels
+* Solar 
+* Wind
+* Hydroelectric
+* Oceans
+* Plastic
+* Corals
 * Pollution 
-* Food Crisis
 * Extinction 
+* Endangered 
+* Turtles 
+* Rhino 
+* Vaquita
+* Orangutan
+* Amazon Rainforest
+* Bees 
+* Bears
+* Emissions
+* Ozone
+* Lead
+* Trash
+* Food
+* Floods
+* Droughts
+* Wildfires
 ## Drafts (sketches, design decisions)
 ### Initial Sketches 
 ![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/climate.png)
