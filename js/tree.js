@@ -4,53 +4,49 @@ var json_data = {
    {
     "name": "Global Warming",
     "free": true,
-    "description": "Interactive authoring tools",
+    "url": "Global Warming",
     "children": [
      {
       "name": "Energy",
-      "description": "Web-based 'cloud' applications for authoring data visualisations",
+      "url": "Energy",
       "free": true,
       "children": [
        {
         "name": "Fossil Fuels",
-        "description": "An open-source platform for publishing charts on the web. Cloud-based or self-hosted.",
-        "url": "https://datawrapper.de/",
+        "url": "Fossil Fuels",
         "free": true
        },
        {
         "name": "Solar",
-        "description": "Spreadsheet in the cloud with charting",
+         "url": "Solar",
         "free": true
        },
        {
         "name": "Wind",
-        "description": "Cloud-based interactive tool for creating data visualisations",
-        "url": "https://plot.ly/",
+        "url": "Wind",
         "free": true
        },
        {
         "name": "Hydroelectric",
-        "description": "Open-source interactive tool for creating and exporting D3-like charts",
-        "url": "http://raw.densitydesign.org/",
+        "url": "Hydroelectric",
         "free": true
        }
       ]
      },
      {
       "name": "Oceans",
+      "url": "Oceans",
       "free": true,
       "children": [
        {
         "name": "Plastic",
-        "description": "Powerful tool for data analytics and visualisation",
-        "url": "http://www.tableausoftware.com/products/desktop",
+        "url": "Plastic",
         "free": true
 
        },
        {
         "name": "Corals",
-        "description": "Free version of Tableau Desktop where charts are public",
-        "url": "http://www.tableausoftware.com/products/public",
+        "url": "Corals",
         "free": true
        }
       ]
@@ -59,84 +55,75 @@ var json_data = {
    },
    {
     "name": "Pollution",
-    "description": "Code-based data visualisation creation",
+    "url": "Pollution",
     "free": true,
     "children": [
      {
       "name": "Extinction",
-      "description": "The language behind most (all?) browser-based data visualisations",
+              "url": "Extinction",
       "free": true,
       "children": [
        {
         "name": "Endangered",
-        "description": "Off-the-shelf pre-designed charts. Easy to use but less flexible.",
+                "url": "Endangered",
         "free": true,
         "children": [
          {
           "name": "Turtles",
-          "description": "A good selection of charts including bar, line, scatter, geo, pie, donut, org etc.",
-          "url": "https://developers.google.com/chart/",
+          "url": "Turtles",
           "free": true
          },
          {
           "name": "Rhino",
-          "description": "A well maintained commercial library of commonly used chart types",
-          "url": "https://www.highcharts.com/",
+          "url": "Rhino",
           "free": true
 
          },
          {
           "name": "Vaquita",
-          "description": "A lovely selection of charts including bar, pie, sunburst, icicle, network, trees etc.",
-          "url": "https://philogb.github.io/jit/",
+          "url": "Vaquita",
           "free": true
          },
          {
           "name": "Orangutan",
-          "description": "Libraries for visualising geographic data",
+                  "url": "Orangutan",
           "free": true
          },
          {
           "name": "Amazon Rainforest",
-          "description": "Beautiful line, scatter and histogram charts built on top of D3",
-          "url": "http://metricsgraphicsjs.org/",
+          "url": "Amazon Rainforest",
           "free": true
          },
          {
           "name": "Bees",
-          "description": "A general purpose charting library built on top of D3",
-          "url": "http://nvd3.org/",
+          "url": "Bees",
           "free": true
          },
          {
           "name": "Bears",
-          "description": "Library for visualising networks",
-          "url": "http://sigmajs.org/",
+          "url": "Bears",
           "free": true
          }
         ]
        },
        {
         "name": "Emissions",
-        "description": "For maximum flexibility, custom coding is the way to go. These libraries will lend a hand.",
+        "url": "Emissions",
         "free": true,
         "children": [
          {
           "name": "Ozone",
-          "description": "The jewel in the crown of web-based data visualisation. A library packed full of components for building any data visualisation you can imagine.",
-          "url": "https://d3js.org/",
+          "url": "Ozone",
           "free": true
          },
          {
           "name": "Lead",
-          "description": "Relatively new, Ractive helps you make your HTML and SVG interactive",
-          "url": "http://www.ractivejs.org/",
+          "url": "Lead",
           "free": true
          },
          {
           "name": "Trash",
-          "description": "A general purpose drawing library with good browser support",
-          "url": "http://raphaeljs.com/",
+          "url": "Trash",
           "free": true
          },
         ]
@@ -145,23 +132,22 @@ var json_data = {
      },
      {
       "name": "Food",
-      "description": "Non-JavaScript languages for producing web-based data visualisations",
+      "url": "Food",
       "free": true,
       "children": [
        {
         "name": "Floods",
-        "description": "Python's a very popular language in data science and is a pleasant language to learn and use",
+        "url": "Floods",
         "free": true,
        },
        {
         "name": "Droughts",
-        "description": "Very popular language for data science",
+        "url": "Droughts",
         "free": true,
         "children": [
          {
           "name": "Wildfires",
-          "description": "A platform for producing web applications using R",
-          "url": "http://shiny.rstudio.com/",
+          "url": "Wildfires",
           "free": true
          }
         ]
@@ -230,9 +216,22 @@ function update(source) {
       .attr("r", 1e-6)
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
+      var selector_string = "#topic";
+      var $element = $(selector_string)
+
   nodeEnter.append('a')
       .attr('xlink:href', function(d) {
-        return d.url;
+        var selector_string = "#topic";
+        var $element = $(selector_string);
+        JSON.stringify(d.url);
+        if (d.url){
+                  console.log(d.name);
+                  console.log("hey");
+                  console.log(d.url);
+                  $element.html(d.url);
+        }
+
+        // return d.url;
       })
       .append("svg:text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
