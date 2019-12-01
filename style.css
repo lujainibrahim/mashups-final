@@ -3,7 +3,7 @@
 body {background-color: #e9eff9;}
 
 a {
-	color: #4f4cb0;
+	color: white;
 	text-decoration: none;
   font-family: 'IBM Plex Sans', sans-serif;
 	-o-transition-duration: 0.2s;
@@ -54,12 +54,12 @@ a:hover {
 }
 
 .button-style {
-	background-color: #266EF6;
+	background-color: #6b93d6;
 	border: none;
-	color: #333333;
+	color: white;
 	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 14px;
-	width: 15%;
+	font-size: 24px;
+	width: 35%;
 	padding: 10px 15px;
 	margin: 5px 15px 20px;
 	-o-transition-duration: 0.2s;
@@ -68,29 +68,11 @@ a:hover {
 	-webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
 }
-.button2-style {
-	background-color: #266EF6;
-	border: none;
-	color: #333333;
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 14px;
-  width: 10%;
-  padding: 2px 2px;
-  margin: 5px 5px 5px;
-	-o-transition-duration: 0.2s;
-	-ms-transition-duration: 0.2s;
-	-moz-transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-}
 
 .button-style:hover {
-	background-color: #FF8B00;
+	background-color: #9fc164;
 }
 
-.button2-style:hover {
-	background-color: #FF8B00;
-}
 
 h1 {
 	font-family: 'Roboto', sans-serif;
@@ -215,7 +197,7 @@ padding-right: 150px;
      color: #1181B8;
    }
 
-   a:link, a:visited {
+   a:visited {
      color: steelblue;
      text-decoration: none;
    }

@@ -8,7 +8,7 @@ function loadData() {
     var topic = $('#topic').val();
     var address = topic;
 
-    var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + topic + '&fq=news_desk:("Environment" "Weather" "Energy" "Cars" "Health" "Politics" "Science")&sort=newest&api-key=QAdGEFleVAbnIm0FVAXfWo5ixuFJooLM'
+    var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + topic + '&sort=newest&api-key=QAdGEFleVAbnIm0FVAXfWo5ixuFJooLM'
     $.getJSON(nytimesUrl, function(data){
         $header.text('New York Times articles on ' + topic);
         articles = data.response.docs;
