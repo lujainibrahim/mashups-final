@@ -79,7 +79,7 @@ After extensive research, we believed that with these 6 topics, we would have co
 ![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/climate.png)
 ### Final Sketches
 ### Color Scheme Choice
-![](https://www.color-hex.com/palettes/7174.png)
+<div style="text-align:center"><img src="https://www.color-hex.com/palettes/7174.png" width="500"></div>
 
 We wanted the experience of using our site to feel educational, authentic, and serving the sole purpose of improving the conversation around climate change especially in relation to money and the economy. And so, we did not want to pick a flashy brand for the website or give it a corporate look. This led to us using the earth-y colors as our color scheme (along with black and white). Here are the hex codes used: 
 * #4f4cb0                                             
