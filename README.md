@@ -1,9 +1,9 @@
 # Climate Change Discourse — Mashups Final Project by Lujain Ibrahim & Brandon Chin Loy
 ## Overview
 ### Initial Proposal Presentation:  
-https://docs.google.com/presentation/d/1ArOMnbw-UD5LM-jbf89lVP30UElBkXgdhee4pZ8CAwA/edit?usp=sharing
+* [Link](https://docs.google.com/presentation/d/1ArOMnbw-UD5LM-jbf89lVP30UElBkXgdhee4pZ8CAwA/edit?usp=sharing)
 ### Final Project Presentation:  
-https://docs.google.com/presentation/d/1cVTRwPkvCbbpvdiPc-1TZF9CnL5S0pLszpaqjBIrXaA/
+* [Link](https://docs.google.com/presentation/d/1cVTRwPkvCbbpvdiPc-1TZF9CnL5S0pLszpaqjBIrXaA/)
 
 ### APIs Used
 * NYT Article Search API
@@ -74,7 +74,7 @@ After extensive research, we believed that with these 6 topics, we would have co
 * Floods
 * Droughts
 * Wildfires
-## Drafts (sketches, design decisions)
+## Design Decisions
 ### Initial Sketches 
 ![](https://github.com/lujainibrahim/mashups-final/blob/master/docu-images/climate.png)
 ### Final Sketches
@@ -91,6 +91,29 @@ We wanted the experience of using our site to feel educational, authentic, and s
 ### Font Choice
 For our font choice, one of our constraints was using an open source font provider like Google Fonts. Even though we wanted the authenticity of our website to show, we also wanted users to associate it with scientific rigor and evidence. And so, we decided to use IBM Plex Sans and Roboto. IBM Plex Sans is "an open source typeface superfamily conceptually designed and developed by Mike Abbink at IBM in collaboration with Bold Monday to reflect the brand spirit, beliefs and design principles of IBM and to be used for all brand experiences across the company internationally", while Roboto is "a neo-grotesque sans-serif typeface family developed by Google as the system font for its mobile operating system Android". Ironically, the technology world is a huge part of the problem, but most individuals will experience unconscious association of these fonts with the techinical and scientific world which will achieve our goal of attaching scientific legitmacy to our web page.
 
+### D3.js Visualizations Choice
+1. [D3 Liquid Fill Gauge](http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6)
+2. [D3 Collapsible Tree](https://observablehq.com/@d3/collapsible-tree)
+
+## Project Development
+### Process
+We first began the process by dreaming up the idea which had to be revisted due to technical constraints and our evolved interest in the subject. Following that, we needed to decide on (1) a target audience, (2) potential APIs, and (3) JavaScript libraries. 
+
+After making those decisions as described above, we began to implement the code. We began with writing JavaScript files for each of our APIs to test them in simple environments to ensure that they work properly and collect the information needed. For the NYT API, we initially wanted to implement a few filters on the API call so that it only collects articles that belong in at least one of the following categories: environment, politics, weather, energy, cars, and health. However, when testing the code, we realized that adding these filters generates very few and very specific results which did no serve the exploratory purpose of our project. As a result, we decided to get rid of the results and instead search using specific key words present in the collapsible tree. 
+
+As for the Financial Times API, ----------------
+
+
+Following the API calls, we created the homepage with statistics on the perception of climate change from the [Yale Program on Climate Change Communication](https://climatecommunication.yale.edu/publications/americans-are-increasingly-alarmed-about-global-warming/) who collected this data from 1140 Americans in December 2018. 
+
+![](http://climatecommunication.yale.edu/wp-content/uploads/2019/02/Six-Americas-Februrary-2019.png)
+
+The purpose of this homepage is to get the user (1) intrigued by the project and the numbers presented and (2) thinking about their own position and feelings towards climate change before they begin exploring the various topics in the next page. At the top of this page is a question for the user: "Are you concerned about climate change?". This question is meant to push the user to consider their thoughts on climate change explicitly and independently of other topics that are often associated with climate change that cloud judgement. This sentence also changes color with the rhythm of a pulse with the intention of a sense of urgency and association with the news (similar to a news ticker that carries news headlines that appear and dissapear).
+
+It was only after the homepage that we began designing the page with the collapsible tree structure and API integration. We wanted the same sense of urgency and news association on this page as well, which is why the changing the title behaves in a similar manner to the question described above. However, this title also changes topics as the user explores the climate change topic tree. Under the tree is the section were the APIs are called and the articles on certain topics are presented to the user.
+
+More on API calls here once we figure it out :) , --------------------
+
 ### Website Flow 
 1. The user is presented with general climate change statistics (visualized via D3.js) to grab their attention
 2. A database of popular climate change topics is kept 
@@ -101,11 +124,9 @@ For our font choice, one of our constraints was using an open source font provid
 7. The articles and their summaries are presented to the user
 
 
-### D3.js Visualizations
-1. D3 Liquid Fill Gauge (http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6)
-2. D3 Collapsible Tree (https://observablehq.com/@d3/collapsible-tree)
+### Challenges Faced
+* Limitations in API access. It was only after we had to experience not being able to use the Reddit API and experience difficulties dealing with the Financial Times API that we gained a profound appreciation of the user friendliness of the NYT API. Had we more access to APIs like Twitter, Reddit, etc..., our project would have been closer to what we envisioned it to be and a more accurate representation of our interests.
+* Connecting API call fields to the different nodes in the tree. Having different JavaScript files, a tree that is in SVG format, and a JSON file with all different nodes made this task particularly difficult. We had to get creative with appending HTML elements and ---------
 
 
-## Development Process
-
-## Challenges Faced
+## User Experience Testing
