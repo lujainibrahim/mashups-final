@@ -225,14 +225,14 @@ padding-right: 150px;
    }
    #parent_div_1{
     width:400px;
-    height:400px;
+    height:600px;
     display: inline-block;
     border:1px solid blue;
 
 }
 #parent_div_2{
  width:400px;
- height:400px;
+ height:600px;
  display: inline-block;
  border:1px solid blue;
 

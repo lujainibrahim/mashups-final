@@ -1,8 +1,8 @@
-var $element = $('#results');
+var $element = $('#results1');
 $element.text("");
 
 $('#go').click(function() {
-    var search = $('#entry').val();
+    var search = $('#topic').val();
     $.ajax({
         type: "POST",
         url: "./php/ftapi.php",

@@ -1,4 +1,4 @@
-$('.topic').each(function(count){
+$('#go').click(function(){
         topic =  $(this).text();
         console.log(topic);
         topic = topic.replace(/ /g,  "%20");
