@@ -14,20 +14,21 @@
 <div id="body">
 </div>
 <center><div class="search_section">
-    <input type="search" id="topic" placeholder="Search">
+    <input type="search" id="entry" placeholder="Search">
     <button type="button" id="go">Go</button>
 </div></center>
 
-<div id="wrapper">
- <div id='parent_div_1'>
-   <h1> NYT </h1>
-    <div id="result"></div>
-</div>
+<br><center><table style="text-align: center; width:50%">
+    <tr>
+      <th>New York Times</th>
+      <th>Financial Times</th> 
+    </tr>
+    <tr>
+      <td width="25%" style="margin: 0px;"><div id="result"></div></td>
+      <td width="25%" style="margin: 0px;"><div id="results"></div></td>
+    </tr>
+  </table></center>
 
-<div id='parent_div_2'>
-   <h1> FT </h1>
-    <div class="results_section" id="results"></div>
-</div>
 <script src="./js/nyt.js"></script>
 <script src="./js/ft.js"></script>
 <script src="./js/tree.js" charset="utf-8"></script>

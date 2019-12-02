@@ -2,7 +2,7 @@ var $element = $('#results');
 $element.text("");
 
 $('#go').click(function() {
-    var search = $('#topic').val();
+    var search = $('#entry').val();
     $.ajax({
         type: "POST",
         url: "./php/ftapi.php",
