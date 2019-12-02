@@ -1,5 +1,5 @@
 $('#go').click(function(){
-        topic =  $(this).text();
+        var topic =  $('#entry').val();
         console.log(topic);
         topic = topic.replace(/ /g,  "%20");
         topic = topic.replace(":", "%3A");
