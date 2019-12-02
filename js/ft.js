@@ -16,7 +16,7 @@ $('#go').click(function() {
             $element.html("");
             for (var i = 0; i < 3; i++) { // To Be Changed
               $element.append('<li class="article">'+
-              '<a href="'+object.results[0].results[i].location.uri+'">'+object.results[0].results[i].title.title+'</a>'+
+              '<a href="'+object.results[0].results[i].location.uri+'" target="_blank">'+object.results[0].results[i].title.title+'</a>'+
               '<p>' + object.results[0].results[i].summary.excerpt + '</p>'+
               '</li>');
             }

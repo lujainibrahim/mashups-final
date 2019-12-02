@@ -15,7 +15,7 @@ $('#go').click(function(){
            for (var i = 0; i < 3; i++) {
                 var article = articles[i];
                 $element.append('<li class="article">'+
-                    '<a href="'+article.web_url+'">'+article.headline.main+'</a>'+
+                    '<a href="'+article.web_url+'" target="_blank">'+article.headline.main+'</a>'+
                     '<p>' + article.snippet + '</p>'+
                     '</li>');
                   }
