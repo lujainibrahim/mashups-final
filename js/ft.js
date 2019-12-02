@@ -1,4 +1,4 @@
-var $element = $('#results1');
+var $element = $('#results');
 $element.text("");
 
 $('#go').click(function() {
@@ -13,7 +13,7 @@ $('#go').click(function() {
             console.log("Success!");
             // console.log(data);
             var object = JSON.parse(data);
-            for (var i = 0; i < 10; i++) { // To Be Changed
+            for (var i = 0; i < 3; i++) { // To Be Changed
               $element.append('<li class="article">'+
               '<a href="'+object.results[0].results[i].location.uri+'">'+object.results[0].results[i].title.title+'</a>'+
               '<p>' + object.results[0].results[i].summary.excerpt + '</p>'+
