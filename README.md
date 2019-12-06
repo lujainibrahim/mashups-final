@@ -133,22 +133,22 @@ More on API calls here once we figure it out :) , --------------------
 
 ## User Experience Testing
 
-* User 1:
-<b> Name:</b> Leyla Farra
+* User 1:<br>
+<b> Name:</b> Leyla Farra<br>
 <b> Feedback:</b>
 
-* User 2:
-<b> Name:</b> 
+* User 2:<br>
+<b> Name:</b> <br>
 <b> Feedback:</b>
 
-* User 3:
-<b> Name:</b> 
+* User 3:<br>
+<b> Name:</b> <br>
 <b> Feedback:</b>
 
-* User 4:
-<b> Name:</b> 
+* User 4:<br>
+<b> Name:</b> <br>
 <b> Feedback:</b>
 
-* User 5:
-<b> Name:</b> 
+* User 5:<br>
+<b> Name:</b> <br>
 <b> Feedback:</b>
