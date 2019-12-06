@@ -128,7 +128,27 @@ More on API calls here once we figure it out :) , --------------------
 
 ### Challenges Faced
 * Limitations in API access. It was only after we had to experience not being able to use the Reddit API and experience difficulties dealing with the Financial Times API that we gained a profound appreciation of the user friendliness of the NYT API. Had we more access to APIs like Twitter, Reddit, etc..., our project would have been closer to what we envisioned it to be and a more accurate representation of our interests.
-* Connecting API call fields to the different nodes in the tree. Having different JavaScript files, a tree that is in SVG format, and a JSON file with all different nodes made this task particularly difficult. We had to get creative with appending HTML elements and ---------
+* Connecting HTML fields to the different nodes in the tree. Having different JavaScript files, a tree that is in SVG format, and a JSON file with all different nodes made this task particularly difficult. We had to get creative with appending HTML elements to introduce interactivity into the page.
 
 
 ## User Experience Testing
+
+* User 1:
+<b> Name:</b> Leyla Farra
+<b> Feedback:</b>
+
+* User 2:
+<b> Name:</b> 
+<b> Feedback:</b>
+
+* User 3:
+<b> Name:</b> 
+<b> Feedback:</b>
+
+* User 4:
+<b> Name:</b> 
+<b> Feedback:</b>
+
+* User 5:
+<b> Name:</b> 
+<b> Feedback:</b>
