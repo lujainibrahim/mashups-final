@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<head>
-<meta charset="UTF-8">
-<title>Climate Change Discourse</title>
-<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="js/jquery.min.js"></script>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Climate Change Discourse</title>
+    <script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="http://bl.ocks.org/brattonc/raw/5e5ce9beee483220e2f6/liquidFillGauge.js" language="JavaScript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .liquidFillGaugeText { font-family: 'Roboto'; font-weight: bold; }
+    </style>
 </head>
 <body>
-<center><h1 id="topic" class="awesome" style="margin-bottom: 0; font-size:25px"></h1></center><br><br>
-<!-- <h3><center>Explore the topics below and what the FT and NYT are reporting on them<center></h3> -->
-<div id="body">
-</div>
-<center><div class="search_section">
-    <input type="search" id="entry" style="font-family: 'IBM Plex Sans', sans-serif;" placeholder="Search">
-    <button type="button" style="font-family: 'IBM Plex Sans', sans-serif; background-color:#6b93d6; color: white;" id="go">Go</button>
-</div></center>
+   <br>
 
-<br><center><table style="text-align: center; width:50%">
-    <tr>
-      <th style="font-family: 'IBM Plex Sans', sans-serif; font-size: 20px;">New York Times</th>
-      <th style="font-family: 'IBM Plex Sans', sans-serif; font-size: 20px;">Financial Times</th>
-    </tr>
-    <tr>
-      <td width="25%" style="margin: 0px;	"><div id="result"></div></td>
-      <td width="25%" style="margin: 0px;	"><div id="results"></div></td>
-    </tr>
-  </table></center>
+  <h3 class="awesome"><center>Are you concerned about climate change?<center></h3>
+  <h1><center>...well, here's how people feel </h1>
+    <center><h4><i> The purpose of this exploratory project is to demonstrate the contrast in climate change discourse in two news outlets with different stakeholders and readers in an attempt to debunk talking points used to discredit the climate change movement as one with invalid and unrealistic demands that are at odds with economic growth.</i><h4></center>
+   <br>
 
-<script src="./js/nyt.js"></script>
-<script src="./js/ft.js"></script>
-<script src="./js/tree.js" charset="utf-8"></script>
+<center><svg id="fillgauge2" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg><h2>Alarmed</h2><center>
+<center><svg id="fillgauge3" width="19%" height="200" onclick="gauge3.update(NewValue());"></svg><h2>Concerned</h2><center>
+<center><svg id="fillgauge4" width="19%" height="200" onclick="gauge4.update(NewValue());"></svg><h2>Cautious</h2><center>
+<center><svg id="fillgauge5" width="19%" height="200" onclick="gauge5.update(NewValue());"></svg><h2>Disengaged</h2><center>
+<center><svg id="fillgauge6" width="19%" height="200" onclick="gauge6.update(NewValue());"></svg><h2>Doubtful & Dismissive</h2><center>
+<br><br><br>
+<center><a href="./homepage.html" class="button-style">Continue</a></center>
+<br><br><br><br>
+<script src=js/gauge.js charset="utf-8"></script>
 </body>
+</html>
