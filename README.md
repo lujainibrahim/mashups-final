@@ -115,7 +115,6 @@ The purpose of this homepage is to get the user (1) intrigued by the project and
 
 It was only after the homepage that we began designing the page with the collapsible tree structure and API integration. We wanted the same sense of urgency and news association on this page as well, which is why the changing the title behaves in a similar manner to the question described above. However, this title also changes topics as the user explores the climate change topic tree. Under the tree is the section were the APIs are called and the articles on certain topics are presented to the user.
 
-More on API calls here once we figure it out :) , --------------------
 
 ### Website Flow 
 1. The user is presented with general climate change statistics (visualized via D3.js) to grab their attention
