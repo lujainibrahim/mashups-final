@@ -134,22 +134,21 @@ It was only after the homepage that we began designing the page with the collaps
 ## User Experience Testing
 
 * User 1:<br>
-<b> Name:</b>Mareya Khouri<br>
-<b> Feedback: (quoted) I like how interactive the website is / the graphics but everything very abstract and it’s hard to really know what the bigger purpose of the site is (I can google this info so what makes the site different) and also how to navigate it.
-</b>
+<b> Name:</b> Mareya Khouri <br>
+<b> Feedback:</b> (quoted) I like how interactive the website is / the graphics but everything very abstract and it’s hard to really know what the bigger purpose of the site is (I can google this info so what makes the site different) and also how to navigate it.
+
 
 * User 2:<br>
-<b> Name:</b>Nishant Aswani<br>
+<b> Name:</b> Nishant Aswani <br>
 <b> Feedback:</b> (paraphrased) - The intro sentence is a moutful — maybe break it up? - Prompt the search bar to explain its purpose - Add some indication of the presence of a the search bar at the top
 
-* User 3:<br>
-<b> Name:</b>Iman Zambasri <br>
-<b> Feedback:</b> (paraphrased) - First sentence is long
+* User 3:<br> Iman Zambasri <br>
+<b> Feedback:</b> (paraphrased) - The intro sentence is long
 
 * User 4:<br>
-<b> Name:</b> <br>
-<b> Feedback:</b>
+<b> Name:</b> Antony Tahan <br>
+<b> Feedback:</b> (paraphrased) - Difficult to see the search bar - Add a prompt to explain what users should search before the search bar.
 
 * User 5:<br>
-<b> Name:</b> <br>
+<b> Name:</b> Jahnae Miller <br>
 <b> Feedback:</b>
