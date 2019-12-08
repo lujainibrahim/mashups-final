@@ -16,10 +16,9 @@
 * HTML
 * CSS
 * JavaScript
-
+* PHP
 
 <b>Libraries:</b>
-* Node.js
 * D3.js
 
 ## Concept Generation
@@ -143,7 +142,7 @@ It was only after the homepage that we began designing the page with the collaps
 <b> Feedback:</b> (paraphrased) - The intro sentence is a moutful — maybe break it up? - Prompt the search bar to explain its purpose - Add some indication of the presence of a the search bar at the top
 
 * User 3:<br> Iman Zambasri <br>
-<b> Feedback:</b> (paraphrased) - The intro sentence is long
+<b> Feedback:</b> (quoted) Upon first glance, I didn't know what the website was about. The font sizing and graphic design of the heading/sub-heading/body text was what confused me the most. I think that one long sentence explaining the project purpose could be broken down into bite-sized chunks of information because reading it all in one go is a little overwhelming, at least for me. I had to read it a few times over to understand.
 
 * User 4:<br>
 <b> Name:</b> Antony Tahan <br>
