@@ -142,7 +142,7 @@ It was only after the homepage that we began designing the page with the collaps
 
 * User 3:<br> 
 <b> Name:</b> Iman Zambasri <br>
-<b> Feedback:</b> (quoted) Upon first glance, I didn't know what the website was about. The font sizing and graphic design of the heading/sub-heading/body text was what confused me the most. I think that one long sentence explaining the project purpose could be broken down into bite-sized chunks of information because reading it all in one go is a little overwhelming, at least for me. I had to read it a few times over to understand.
+<b> Feedback:</b> (quoted) - Upon first glance, I didn't know what the website was about. The font sizing and graphic design of the heading/sub-heading/body text was what confused me the most. I think that one long sentence explaining the project purpose could be broken down into bite-sized chunks of information because reading it all in one go is a little overwhelming, at least for me. I had to read it a few times over to understand.
 
 * User 4:<br>
 <b> Name:</b> Antony Tahan <br>
@@ -150,4 +150,4 @@ It was only after the homepage that we began designing the page with the collaps
 
 * User 5:<br>
 <b> Name:</b> Jahnae Miller <br>
-<b> Feedback:</b>
+<b> Feedback:</b> (quoted) - Loved the percentage graphics at the beginning, as well as the tree visualization. I also appreciated the responsiveness on the mobile version of the website.
