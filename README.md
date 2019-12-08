@@ -23,7 +23,7 @@
 
 ## Concept Generation
 ### Motivation 
-Intially, we wanted to investigate the difference in discourse between climate change discussions on Reddit and on the NYT. We intended to analyze the sentiments of randomly generated articles/subreddits from the two platforms under a specific climate change/environmental science topic using a sentiment analysis Node.js library. Some of the sentiments would include: positive, negative, excited, doubtful, nervous, and confident. The results of this analysis would then be displayed using differently sized and colored bubbles using D3.js.
+Initially, we wanted to investigate the difference in discourse between climate change discussions on Reddit and on the NYT. We intended to analyze the sentiments of randomly generated articles/subreddits from the two platforms under a specific climate change/environmental science topic using a sentiment analysis Node.js library. Some of the sentiments would include: positive, negative, excited, doubtful, nervous, and confident. The results of this analysis would then be displayed using differently sized and colored bubbles using D3.js.
 
 Our main motivators for this initial propose and exercise in analyzing the audiences of the two propellers of climate discussions are the following: 
 * Investigating the effect of demographic differences in Reddit and NYT readers/users on climate change discourse 
@@ -31,7 +31,7 @@ Our main motivators for this initial propose and exercise in analyzing the audie
 * Drawing contrast between the two and possibly debunking myths about the circulation of climate news online
 * Learning about and using the customizability of sentiment analysis using Node.js
 
-However, due to a number of reasons, we tweaked our proposal to better serve our technical constraints and refined interests. These technical constraints included our failure to obtain access to Reddit's API. Further, our interest shifted to more specifically how certain behind the scenes stakeholders and special interests involved in news-making affect the representation of topics and news circulation — particulary topics like climate change which is deeply intertwined with the science, religion, politics, and the economy. As a result, we begain to look into other sources of news and fact circulation. Among the many newpapers and online platforms we considered, of course after taking into account technical considerations, we were primarily interested with alternative sources of news like The Financial Times as well as Bloomberg (a timely investigation considering Michael Bloomberg just announced his candidancy for the presidency and is a billionare with an interestingly strong stance on climate change). We eventually decided to use The Financial Times due to their explicit focus on the economic angle of all news topics. We also beleived that taking this approach may lead to a more concrete outcome compared to using Reddit: debunking talking points used to discredit the climate change movement as one with invalid and unrealistic demands that are at odds with economic growth.
+However, due to a number of reasons, we tweaked our proposal to better serve our technical constraints and refined interests. These technical constraints included our failure to obtain access to Reddit's API. Further, our interest shifted to more specifically how certain behind the scenes stakeholders and special interests involved in news-making affect the representation of topics and news circulation — particularly topics like climate change which is deeply intertwined with the science, religion, politics, and the economy. As a result, we began to look into other sources of news and fact circulation. Among the many newspapers and online platforms we considered, of course after taking into account technical considerations, we were primarily interested with alternative sources of news like The Financial Times as well as Bloomberg (a timely investigation considering Michael Bloomberg just announced his candidacy for the presidency and is a billionaire with an interestingly strong stance on climate change). We eventually decided to use The Financial Times due to their explicit focus on the economic angle of all news topics. We also believed that taking this approach may lead to a more concrete outcome compared to using Reddit: debunking talking points used to discredit the climate change movement as one with invalid and unrealistic demands that are at odds with economic growth.
 
 To reiterate, our main motivators for our final project evolved into the following: 
 * Investigating the effect of demographic differences in Financial Times and NYT readers on climate change discourse 
@@ -40,7 +40,7 @@ To reiterate, our main motivators for our final project evolved into the followi
 * Drawing direct contrast between climate related topics discussed mostly economically in the Financial Times and mostly culturally and scientifically in the NYT 
 * Pursuing our interest in a stronger data visualization element to the project
 
-As a result, our final project shifted to be a more exploratory experience with a stronger contrast in the source of information from the getgo. Users will first be presented with general climate change statistics, visualized to be more attractive and attention-grabbing to encourage users to further explore the webpage. Following that, different climate chaneg topics and their relations to each other will be presented in a collapsible tree type visual, allowing users to dig deeper into these various topic one Financial Times and one NYT article at a time.
+As a result, our final project shifted to be a more exploratory experience with a stronger contrast in the source of information from the get go. Users will first be presented with general climate change statistics, visualized to be more attractive and attention-grabbing to encourage users to further explore the webpage. Following that, different climate change topics and their relations to each other will be presented in a collapsible tree type visual, allowing users to dig deeper into these various topic one Financial Times and one NYT article at a time.
 
 ### Target Audience
 Our target audience are climate change skeptics. These can be students, parents, policy-makers, as well as those immediately affected by the change in climate and are lied to by politicians and policy-makers. Even though our target audience is not restricted by age, gender, race, or degree of education, there are certain demographics that are more likely to be climate change skeptics than others. We hoped that through a highly visual approach we would appeal to a larger group of the skeptics, but we also wanted the experience to be educational and explorative and not just controversial and flashy, and this is where the Financial Times and NYT articles come in. 
@@ -91,7 +91,7 @@ We wanted the experience of using our site to feel educational, authentic, and s
 * #9fc164 
 
 ### Font Choice
-For our font choice, one of our constraints was using an open source font provider like Google Fonts. Even though we wanted the authenticity of our website to show, we also wanted users to associate it with scientific rigor and evidence. And so, we decided to use IBM Plex Sans and Roboto. IBM Plex Sans is "an open source typeface superfamily conceptually designed and developed by Mike Abbink at IBM in collaboration with Bold Monday to reflect the brand spirit, beliefs and design principles of IBM and to be used for all brand experiences across the company internationally", while Roboto is "a neo-grotesque sans-serif typeface family developed by Google as the system font for its mobile operating system Android". Ironically, the technology world is a huge part of the problem, but most individuals will experience unconscious association of these fonts with the techinical and scientific world which will achieve our goal of attaching scientific legitmacy to our web page.
+For our font choice, one of our constraints was using an open source font provider like Google Fonts. Even though we wanted the authenticity of our website to show, we also wanted users to associate it with scientific rigor and evidence. And so, we decided to use IBM Plex Sans and Roboto. IBM Plex Sans is "an open source typeface superfamily conceptually designed and developed by Mike Abbink at IBM in collaboration with Bold Monday to reflect the brand spirit, beliefs and design principles of IBM and to be used for all brand experiences across the company internationally", while Roboto is "a neo-grotesque sans-serif typeface family developed by Google as the system font for its mobile operating system Android". Ironically, the technology world is a huge part of the problem, but most individuals will experience unconscious association of these fonts with the technical  and scientific world which will achieve our goal of attaching scientific legitimacy to our web page.
 
 ### D3.js Visualizations Choice
 1. [D3 Liquid Fill Gauge](http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6)
@@ -99,7 +99,7 @@ For our font choice, one of our constraints was using an open source font provid
 
 ## Project Development
 ### Process
-We first began the process by dreaming up the idea which had to be revisted due to technical constraints and our evolved interest in the subject. Following that, we needed to decide on (1) a target audience, (2) potential APIs, and (3) JavaScript libraries. 
+We first began the process by dreaming up the idea which had to be revisited due to technical constraints and our evolved interest in the subject. Following that, we needed to decide on (1) a target audience, (2) potential APIs, and (3) JavaScript libraries. 
 
 After making those decisions as described above, we began to implement the code. We began with writing JavaScript files for each of our APIs to test them in simple environments to ensure that they work properly and collect the information needed. For the NYT API, we initially wanted to implement a few filters on the API call so that it only collects articles that belong in at least one of the following categories: environment, politics, weather, energy, cars, and health. However, when testing the code, we realized that adding these filters generates very few and very specific results which did no serve the exploratory purpose of our project. As a result, we decided to get rid of the results and instead search using specific key words present in the collapsible tree. 
 
@@ -110,7 +110,7 @@ Following the API calls, we created the homepage with statistics on the percepti
 
 ![](http://climatecommunication.yale.edu/wp-content/uploads/2019/02/Six-Americas-Februrary-2019.png)
 
-The purpose of this homepage is to get the user (1) intrigued by the project and the numbers presented and (2) thinking about their own position and feelings towards climate change before they begin exploring the various topics in the next page. At the top of this page is a question for the user: "Are you concerned about climate change?". This question is meant to push the user to consider their thoughts on climate change explicitly and independently of other topics that are often associated with climate change that cloud judgement. This sentence also changes color with the rhythm of a pulse with the intention of a sense of urgency and association with the news (similar to a news ticker that carries news headlines that appear and dissapear).
+The purpose of this homepage is to get the user (1) intrigued by the project and the numbers presented and (2) thinking about their own position and feelings towards climate change before they begin exploring the various topics in the next page. At the top of this page is a question for the user: "Are you concerned about climate change?". This question is meant to push the user to consider their thoughts on climate change explicitly and independently of other topics that are often associated with climate change that cloud judgement. This sentence also changes color with the rhythm of a pulse with the intention of a sense of urgency and association with the news (similar to a news ticker that carries news headlines that appear and disappear).
 
 It was only after the homepage that we began designing the page with the collapsible tree structure and API integration. We wanted the same sense of urgency and news association on this page as well, which is why the changing the title behaves in a similar manner to the question described above. However, this title also changes topics as the user explores the climate change topic tree. Under the tree is the section were the APIs are called and the articles on certain topics are presented to the user.
 
@@ -119,7 +119,7 @@ It was only after the homepage that we began designing the page with the collaps
 1. The user is presented with general climate change statistics (visualized via D3.js) to grab their attention
 2. A database of popular climate change topics is kept 
 3. A random seed is used to pick n topics
-4. D3.js visualizes the the topics in a collapsible tree
+4. D3.js visualizes the topics in a collapsible tree
 5. Users pick a topic
 6. NYT and Financial Times are searched for articles under this topic
 7. The articles and their summaries are presented to the user
@@ -139,7 +139,7 @@ It was only after the homepage that we began designing the page with the collaps
 
 * User 2:<br>
 <b> Name:</b> Nishant Aswani <br>
-<b> Feedback:</b> (paraphrased) - The intro sentence is a moutful — maybe break it up? - Prompt the search bar to explain its purpose - Add some indication of the presence of a the search bar at the top
+<b> Feedback:</b> (paraphrased) - The intro sentence is a mouthful — maybe break it up? - Prompt the search bar to explain its purpose - Add some indication of the presence of a the search bar at the top
 
 * User 3:<br> 
 <b> Name:</b> Iman Zambasri <br>
