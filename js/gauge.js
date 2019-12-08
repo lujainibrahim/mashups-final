@@ -27,7 +27,7 @@ config3.waveHeight = 0.15;
 config3.waveAnimate = false;
 config3.waveOffset = 0.25;
 config3.valueCountUp = false;
-config3.displayPercent = false;
+config3.displayPercent = true;
 var gauge4 = loadLiquidFillGauge("fillgauge4", 17, config3);
 var config4 = liquidFillGaugeDefaultSettings();
 config4.circleThickness = 0.15;
@@ -60,7 +60,7 @@ config5.waveOffset = 0.25;
 config5.textSize = 1.2;
 config5.minValue = 30;
 config5.maxValue = 150
-config5.displayPercent = false;
+config5.displayPercent = true;
 var gauge6 = loadLiquidFillGauge("fillgauge6", 18, config5);
 
 function NewValue(){
