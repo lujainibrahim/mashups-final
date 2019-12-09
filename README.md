@@ -3,7 +3,7 @@
 ### Initial Proposal Presentation:  
 * [Link](https://docs.google.com/presentation/d/1ArOMnbw-UD5LM-jbf89lVP30UElBkXgdhee4pZ8CAwA/edit?usp=sharing)
 ### Final Project Presentation:  
-* [Link](https://docs.google.com/presentation/d/1cVTRwPkvCbbpvdiPc-1TZF9CnL5S0pLszpaqjBIrXaA/)
+* [Link](https://docs.google.com/presentation/d/1cVTRwPkvCbbpvdiPc-1TZF9CnL5S0pLszpaqjBIrXaA/edit?usp=sharing)
 ### Viewing the Project:
 * [Link](http://brandon.hosting.nyu.edu/mashups/proj2/)
 ### APIs Used
